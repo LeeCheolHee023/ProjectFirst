@@ -15,6 +15,7 @@ public class AccountExample {
 
 			if (menu == 1) {
 				System.out.println("계좌생성 선택.");
+				scn.nextLine();
 				System.out.println("계좌번호를 입력하세요.");
 				String ano = scn.nextLine();
 				System.out.println("예금주를 입력하세요.");

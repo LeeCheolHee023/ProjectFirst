@@ -9,7 +9,7 @@ public class Car {
 	}
 	public Car(int maxSpeed) {
 		this.maxSpeed = maxSpeed;	
-	}
+	}=
 	public Car(String model) {
 		this.model = model;
 	}
