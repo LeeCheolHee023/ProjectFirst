@@ -11,11 +11,10 @@ public class AccountExample {
 			System.out.println("1.계좌생성  2.계좌목록 3.예금 4.출금 5.종료");
 			System.out.println("----------------------------------");
 			System.out.println("선택> ");
-			int menu = scn.nextInt();
+			int menu = scn.nextInt();scn.nextLine();
 
 			if (menu == 1) {
 				System.out.println("계좌생성 선택.");
-				scn.nextLine();
 				System.out.println("계좌번호를 입력하세요.");
 				String ano = scn.nextLine();
 				System.out.println("예금주를 입력하세요.");
