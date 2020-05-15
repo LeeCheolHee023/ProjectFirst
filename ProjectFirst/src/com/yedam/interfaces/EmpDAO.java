@@ -35,7 +35,7 @@ public class EmpDAO {
 			pstmt.setInt(3, emp.getSalary());
 			pstmt.setString(4, emp.getHireDate());
 			int r = pstmt.executeUpdate();
-			System.out.println(r + "건 입렫됨");
+			System.out.println(r + "건 입력됨");
 
 		} catch (SQLException e) {
 			e.printStackTrace();
