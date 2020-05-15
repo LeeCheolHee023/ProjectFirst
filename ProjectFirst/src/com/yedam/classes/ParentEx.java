@@ -10,8 +10,14 @@ public class ParentEx {
 		parent.getTelNumber();
 	}
 	public class Child  extends Parent {
-		Child(String lastName, String firstName, String telNumber){
+		Child(String lastName, String firstName, String telNumber)
 			super(lastName,firstName, telNumber);
-		}
+	}
+	void showInfo() {
+		Child child =  new Child();
+		child.getLastName();
+		child.getFirstName();
+		child.getTelNumber();
+		
 	}
 }

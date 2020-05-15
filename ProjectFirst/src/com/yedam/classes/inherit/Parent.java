@@ -4,9 +4,14 @@ public class Parent {
 	private String lastName;
 	private String firstName;
 	private String telNumber;
-	public Parent() {
+	protected Parent() {
 	}
-	
+	public Parent(String lastName, String firstName, String telNumber) {
+		super();  // object(최상위 클래스) 클래스 상속.
+		this.lastName = lastName;
+		this.firstName = firstName;
+		this.telNumber = telNumber;
+	}
 	String getLastName() {
 		return lastName;
 	}
@@ -30,15 +35,6 @@ public class Parent {
 	public void setTelNumber(String telNumber) {
 		this.telNumber = telNumber;
 	}
-
-	
-	public Parent(String lastName, String firstName, String telNumber) {
-		super();  // object(최상위 클래스) 클래스 상속.
-		this.lastName = lastName;
-		this.firstName = firstName;
-		this.telNumber = telNumber;
-	}
-
 	@Override
 	public String toString() {
 		return "lastName=" + lastName + "firstName=" + firstName;
