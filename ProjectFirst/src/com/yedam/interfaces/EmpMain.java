@@ -25,6 +25,7 @@ public class EmpMain {
 				int salary = scn.nextInt();scn.nextLine();
 				System.out.println("입사일 입력(2020/05/05) : ");
 				String hireDate = scn.nextLine();
+				
 				Employee emp = new Employee(empid, lastName,  salary, hireDate);
 				service.createEmp(emp);
 				
