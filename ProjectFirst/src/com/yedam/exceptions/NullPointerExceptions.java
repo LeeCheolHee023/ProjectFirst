@@ -2,10 +2,14 @@ package com.yedam.exceptions;
 
 public class NullPointerExceptions {
 	public static void main(String[] args) {
-		String str = "Hello";
-		System.out.println(str.toString());
+		String str = "null";
 		try {
-			Class.forName("java.lang.String2");
+		System.out.println(str.toString());
+		}catch(Exception e) {
+			System.out.println("null값 참조");
+		}
+		try {
+			Class.forName("java.lang.String");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
