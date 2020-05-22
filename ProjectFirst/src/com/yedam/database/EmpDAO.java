@@ -6,6 +6,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import com.yedam.database.Emp;
+
 public class EmpDAO {
 	public void insertEmp(Employee emp) {
 		Connection conn = null;

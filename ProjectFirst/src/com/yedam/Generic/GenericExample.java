@@ -12,7 +12,7 @@ public class GenericExample {
 //		String str = (String) strAry[0];
 //		Integer num = (Integer) strAry[1];
 //		Integer num1 = (Integer) strAry[0];
-		
+		 
 		List list = new ArrayList();
 		
 		list.add("Heoll");

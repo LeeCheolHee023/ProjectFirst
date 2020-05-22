@@ -1,5 +1,7 @@
 package com.yedam.database;
 
+import com.yedam.database.Emp;
+
 public class EmpExe {
 	public static void main(String[] args) {
 		EmpDAO dao = new EmpDAO();
