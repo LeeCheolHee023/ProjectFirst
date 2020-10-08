@@ -1,7 +1,5 @@
 package com.yedam.Collection.list;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Freeboard2 {
